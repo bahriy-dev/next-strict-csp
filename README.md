@@ -1,6 +1,6 @@
 # next-strict-csp
 
-[![CI](https://github.com/bahriy-dev/next-strict-csp/actions/workflows/ci.yml/badge.svg)](https://github.com/bahriy-dev/next-strict-csp/actions/workflows/ci.yml)
+[![CI](https://github.com/bahriy-dev/nextjs-strict-csp-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/bahriy-dev/nextjs-strict-csp-starter/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Next.js 16](https://img.shields.io/badge/Next.js-16-black)
 
@@ -91,7 +91,7 @@ tests/csp.spec.ts     Playwright: Chromium, Firefox, WebKit
 ```
 
 Based on the setup running in production at [parolaolustur.com](https://parolaolustur.com)
-([source](https://github.com/bahriy-dev/parola-olustur)).
+([source](https://github.com/bahriy-dev/password-generator-parola-olustur)).
 
 ## License
 
