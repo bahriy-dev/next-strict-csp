@@ -31,7 +31,7 @@ test('every script Next.js renders carries the request nonce', async ({ page }) 
   const response = await page.goto('/');
   const nonce = nonceOf(response!.headers()['content-security-policy']);
   const html = await response!.text();
-  const scripts = [...html.matchAll(/<script\b[^>]*>/g)].map((m) => m[0]);
+  const scripts = [...html.matchAll(/<script\b[^>]*>/gi)].map((m) => m[0]);
   expect(scripts.length).toBeGreaterThan(0);
   for (const tag of scripts) expect(tag).toContain(`nonce="${nonce}"`);
 });
